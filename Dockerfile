@@ -1,5 +1,5 @@
 FROM python
 MAINTAINER gaurishrimali20@gmail.com
-RUN mkdir/mycode
-COPY program1.py /mycode/program1.py
-CMD python /mycode/program1.py
+RUN mkdir /dockerImageCreation
+COPY program1.py /dockerImageCreation/program1.py
+CMD python /dockerImageCreation/program1.py
